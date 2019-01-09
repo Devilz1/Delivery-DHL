@@ -1,0 +1,71 @@
+/* Fonts */
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Medium.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Light.ttf);
+  font-weight: 300;
+}
+* {
+  font-family: Poppins;
+}
+.active {
+  border-bottom: 4px solid #ba0000 !important;
+  font-weight: 600;
+}
+.header-top {
+  width: 100%;
+  background-color: #ba0000;
+}
+.header-top select {
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.header-top select option {
+  background-color: #ba0000;
+}
+.header-top span {
+  color: #fff;
+  white-space: nowrap;
+}
+.header-menu {
+  background-color: #ffc900;
+}
+.header-menu .navbar {
+  background-color: #ffc900 !important;
+}
+.header-menu .navbar ul li {
+  border-bottom: 4px solid #ffc900;
+  margin-top: 4px;
+}
+.header-menu .navbar ul li a {
+  color: #ba0000 !important;
+}
+.header-menu .navbar form input {
+  box-shadow: none;
+  border-bottom: 2px solid #ba0000 !important;
+  color: #ba0000 !important;
+}
+.slider-top .mask {
+  background-color: #ba0000;
+}
