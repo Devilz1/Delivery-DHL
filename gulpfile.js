@@ -20,7 +20,7 @@ gulp.task('scripts', function(){
     return gulp.src([
         'src/libs/jquery/dist/jquery.min.js',
         'src/libs/bootstrap/dist/js/bootstrap.min.js',
-        'node_modules/mdbootstrap/js/mdb.min.js'
+        'src/libs/mdbootstrap/js/mdb.min.js'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
