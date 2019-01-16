@@ -116,3 +116,74 @@
   border: 2px solid #ffc900;
   background-color: #ffc900 !important;
 }
+.awesome-services .awesome-services__title {
+  font-size: 50px;
+  font-family: "Myriad Pro";
+  font-weight: 700;
+  margin: 140px 0;
+  color: #ba0000;
+}
+.awesome-services .card {
+  border: none;
+  box-shadow: none;
+}
+.awesome-services .card .card-body {
+  margin: 30px 0 !important;
+  padding: 0 !important;
+}
+.awesome-services .card .card-body .card-title {
+  color: #ba0000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Poppins;
+}
+.awesome-services .card .card-body .card-text {
+  font-family: Poppins;
+  color: #777777;
+}
+.awesome-services .card .card-body .card-link {
+  color: #000;
+  font-weight: 700;
+}
+.awesome-services .card .card-body .card-link span {
+  color: #ba0000;
+}
+.awesome-services .card:last-child {
+  background-color: #ba0000;
+}
+.awesome-services .card:last-child h4 {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.awesome-services .card:last-child hr {
+  width: 70px;
+  border: 1px solid #ffc900;
+  margin-left: 0;
+  margin: 30px 0;
+}
+.awesome-services .card:last-child p {
+  color: #fff;
+}
+.awesome-services .card:last-child a {
+  background-color: transparent !important;
+  border: 2px solid #fff;
+  color: #fff !important;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.awesome-services .card:last-child a:hover {
+  color: #ba0000 !important;
+  border: 2px solid #ffc900;
+  background-color: #ffc900 !important;
+  box-shadow: none;
+}
+.awesome-services .card:last-child form select {
+  background-color: #9d0000 !important;
+  margin: 20px 0 !important;
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  color: #fff;
+}
