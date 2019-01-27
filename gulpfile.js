@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglifyjs'),
-    autoPrefixer = require('gulp-autoprefixer');
+    autoPrefixer = require('gulp-autoprefixer'),
+    cssimport = require("gulp-cssimport");
 
 gulp.task('less', function (){
     return gulp.src('src/less/**/*.less')
@@ -28,8 +29,11 @@ gulp.task('scripts', function(){
 });
 
 gulp.task('css-libs', ['less'], function(){
-    return gulp.src('src/css/libs.css')
-        .pipe(gulp.dest('src/css'))
+    gulp.src('src/css/libs.css')
+    .pipe(cssimport())
+    .pipe(cssnano())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('src/css'));
 });
 
 gulp.task('browser-sync', function(){
